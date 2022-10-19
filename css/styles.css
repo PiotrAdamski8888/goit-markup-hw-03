@@ -24,9 +24,15 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-/*.ul-nopoint {
+.ul-nopoint {
   list-style: none;
-}*/
+  display: flex;
+  margin: inherit;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
 
 .link:hover {
   color: var(--main-blue);
@@ -74,6 +80,8 @@ body {
   line-height: 1.85;
   background-color: var(--second-white);
   cursor: pointer;
+  width: 200px;
+  height: 50px;
 }
 .button-agencja:hover {
   background-color: var(--main-blue);
@@ -109,6 +117,12 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  Width: 270px;
+Height: 75px;
+text-align: justify;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 30px;
 }
 .figcaption-strong-studio {
   font-weight: 500;
@@ -175,24 +189,39 @@ body {
   display: flex;
   max-width: 1200px;
   width: 100%;
-  height: 80px;
+  height: 26px;
   align-items: center;
-  padding: 0 15px;
+
+  padding: 0;
 }
 .first-list {
-  text-align: flex-start;
+  text-align: center;
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 254px;
-  padding-left: 0;
-  margin: 32x 371px 32px 0;
- 
+
+  /* margin: 32x 371px 32px 0;*/
 }
 .second-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 254px;
+
   margin: 32px 0 32px 0;
+}
+.header-just {
+  padding: 30px 0;
+}
+.border-bot {
+  border-bottom: 1px solid;
+  color: var(--border-white);
+}
+.lorem-cointainer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
