@@ -84,6 +84,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 50px;
+  
 }
 .button-agencja:hover {
   background-color: var(--main-blue);
@@ -98,6 +99,9 @@ body {
   line-height: 1.62;
   background-color: var(--second-white);
   cursor: pointer;
+ margin-right: 8px;
+ padding: 6px 22px;
+ border-radius: 4px;
 }
 .button:hover {
   background-color: var(--main-blue);
