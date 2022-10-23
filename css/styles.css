@@ -76,7 +76,7 @@ li {
   font-size: 44px;
   line-height: 1.36;
   margin-top: 0px;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .button-agencja {
   color: var(--main-black);
@@ -105,7 +105,6 @@ margin-bottom: 30px;
   cursor: pointer;
   margin-right: 8px;
   padding: 6px 22px;
- 
 }
 .button:hover {
   background-color: var(--main-blue);
@@ -151,7 +150,7 @@ margin-bottom: 30px;
   line-height: 1.18;
   padding-bottom: 30px;
   margin-bottom: 0px;
-margin-top: 0px;
+  margin-top: 0px;
 }
 .figcaption-strong-portfolio {
   font-weight: 700;
@@ -316,17 +315,14 @@ margin-top: 0px;
   list-style: none;
   margin: 0;
   padding-left: 0;
-  
 }
 .portfolio-photo-flex {
   flex-basis: calc((100% - 60px) / 3);
-  
 }
 .figure-photo-portfolio {
   background: var(--main-white);
   border: 1px solid #eeeeee;
   margin: 0 auto;
-  
 }
 .image-width {
   width: 100%;
@@ -334,7 +330,6 @@ margin-top: 0px;
 }
 .portfolio-figcaption-padding {
   padding: 20px 24px;
-  
 }
 .footer-li-margin-bot {
   margin-bottom: 9px;
