@@ -53,6 +53,7 @@ li {
 .link-header {
   color: var(--main-silver);
   text-decoration: none;
+  
 }
 .link-header:hover {
   color: var(--main-blue);
@@ -224,6 +225,7 @@ li {
 .first-list {
   text-align: center;
   display: flex;
+  padding-left: 0px;
 
   flex-grow: 1;
   gap: 46px;
@@ -234,7 +236,7 @@ li {
   display: flex;
   justify-content: space-between;
 
-  gap: 46px;
+  gap: 50px;
 }
 .header-just {
   padding: 27px 0;
